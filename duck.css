@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: f7f7f7;
+    padding:0;
+    margin:0;
+}
+
+nav {
+
+    height:10vh;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+   
+}
+
+ul {
+
+    display:flex;
+    
+}
+
+li {
+
+    list-style: none;
+    margin:10px;
+    color:grey;
+    font-size:12px;
+}
+
+li:hover {
+    border-bottom:1 px solid rgba(0,0,0, 0.2);
+}
+
+
+.banner {
+    height:90vh;
+    background-image:url('');
+    background-size: cover;
+}
+
+.center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre {
+    text-align: center;
+}
+
+.round {
+
+padding:6px;
+width:500px;
+height: 15px;
+font-size: 14px;
+}
+
+.round2 {
+    padding:6px;
+    border:1px solid grey;
+    margin-bottom: 30px;
+}
+
+.round2 img {
+    width:13px;
+    height:14px;
+}
+
+.canard {
+    text-align: center;
+}
+
+.message h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.message {
+    margin-top: 0px;
+    line-height: 8px;
+    text-align: center;
+}
+
+.bouton {
+    background-color:#688DFB ;
+    color: white;
+    padding:11px;
+    border-radius: 10px;
+    border:1px solid #688DFB;
+    width: 250px;
+    height:15px;
+    text-align: center;
+    margin:auto;
+}
+
+.chrome {
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+
+}

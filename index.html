@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DuckDuckGo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="duck.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+
+            </div>
+
+            <ul>
+                <li>Votre confidentialité, simplifiée. <i class="fas fa-sort-down"></i></li>
+                <li><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+        <div class="banner center">
+            <div class="titre">
+                <div class="canard"><img src="duuck.png" alt="canard"></div>
+                <input type="text" class="round" placeholder="Recherchez sur le web sans être traqués">
+                <button class="round2"><img src="rechercher.jpg"></button>
+                <!--<p>Votre confidentialité, simplifiée. <a href="">Faites passer le message sur DuckDuckGo !</a></p>-->
+            
+                <div class="message">
+                    <h1>Fatigués d'être traqués en ligne ? On peut vous aider.</h1>
+                    <p>Nous ne conservons pas vos informations personnelles.</p>
+                    <p>Nous ne vous suivons pas avec des publicités. Nous ne vous traquons pas. Jamais !</p>
+                    <div class="bouton"><a class="chrome" href="">Ajouter Duckduckgo à Chrome</a></div> 
+               
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<script src="main.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+</body>
+
+</html>
